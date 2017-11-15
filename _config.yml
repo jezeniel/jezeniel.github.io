@@ -1,0 +1,58 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 10
+  debug: false
+  sort_field: "date"
+  sort_reverse: true
+  collection: "posts"
+  permalink: "/blog/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Jezeniel Zapanta
+description: "I love coding, reading, games and my family."
+keywords: "jezeniel, code, software, software engineer, blog, web"
+url: https://jezeniel.github.io
+baseurl: ""
+
+google_analytics: UA-109694212-1
+repo: https://github.com/jezeniel/jezeniel.github.io
+disqus_shortname: "jezeniel"
+disqus_site_shortname: "jezeniel"
+
+# Author settings
+author:
+  name: Jezeniel Zapanta
+  job: Software Engineer
+  bio: "I love coding, reading, games and writing random things."
+  thumb: /images/author.jpg
+  email: jezeniel.zapanta@gmail.com
+  url: https://jezeniel.github.io
+  github: https://github.com/jezeniel
+  twitter: https://twitter.com/jezeniel
+  facebook: https://facebook.com/jezeniel
+  linkedin: https://www.linkedin.com/in/jezeniel-zapanta-47123272/
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: blog
+    title: Blog
+  - slug: projects
+    title: Projects
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
