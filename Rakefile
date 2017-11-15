@@ -3,10 +3,11 @@ require "rubygems"
 require "tmpdir"
 require "bundler/setup"
 require "jekyll"
+require "bourbon"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "jezeniel/jezeniel.github.io"
-GITHUB_REPO_BRANCH = "gh-pages"
+GITHUB_REPO_BRANCH = "master"
 
 SOURCE = "source/"
 DEST = "_site"

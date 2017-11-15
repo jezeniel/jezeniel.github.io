@@ -55,4 +55,4 @@ navbar:
   - slug: projects
     title: Projects
 
-exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json", "Rakefile"]
