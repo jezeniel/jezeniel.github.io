@@ -37,7 +37,7 @@ disqus_site_shortname: "jezeniel"
 author:
   name: Jezeniel Zapanta
   job: Software Engineer
-  bio: "I love coding, reading, games and writing random things."
+  bio: "A developer from Philippines. I am passionate with my work and my interests are on web development, distributed computing, software and system architecture/design and a lot of other things."
   thumb: /images/author.jpg
   email: jezeniel.zapanta@gmail.com
   url: https://jezeniel.github.io
@@ -45,6 +45,7 @@ author:
   twitter: https://twitter.com/jezeniel
   facebook: https://facebook.com/jezeniel
   linkedin: https://www.linkedin.com/in/jezeniel-zapanta-47123272/
+  email: mailto:jezeniel.zapanta@gmail.com
 
 # navbar pages
 navbar:
