@@ -1,10 +1,14 @@
 ---
 layout: pages
+title: Blog
 permalink: /blog/
+pagination:
+  enabled: true
 ---
 
 <section class="post-list">
-  <article class="page card">
-    <h1>Coming soon...</h1>
-  </article>
+  {% for post in paginator.posts %}
+    {% include article.html %}
+  {% endfor %}
+  {% include pagination.html %}
 </section>

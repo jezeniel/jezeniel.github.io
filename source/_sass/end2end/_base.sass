@@ -5,7 +5,7 @@ body
   height: 100%
 
 body
-  border-top: 5px solid $primary-color
+  // border-top: 5px solid $primary-color
   background: $base-background-color
   padding-top: 75px
 
@@ -17,10 +17,23 @@ figure
   padding: 0
 
 .main-container
-  background: darken($base-background-color, 3%)
+  // background: darken($base-background-color, 3%)
   padding: $base-spacing 0
 
 .container
+  max-width: $phone-large
+  margin-left: auto
+  margin-right: auto
+  padding-left: $base-spacing
+  padding-right: $base-spacing
+
+  +media($tablet-small)
+    max-width: $tablet-small
+
+  +media($desktop)
+    max-width: 700px
+
+.nav-container
   max-width: $phone-large
   margin-left: auto
   margin-right: auto

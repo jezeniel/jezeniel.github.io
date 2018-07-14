@@ -4,12 +4,13 @@ layout: pages
 
 <article role="article" class="post">
 
-  <div class="card">
+  <div>
     <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-      <em class="post-meta">
-        <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-      </em>
+      <h2 class="post-title">{{ page.title }}</h1>
+      <div class="post-info">
+        <time>written on {{ page.date | date: "%A, %B %-d, %Y" }} </time>
+        {% if page.tags %} • {{ page.tags }}{% endif %}
+      </div>
     </header>
 
     <div class="post-content">
@@ -20,8 +21,7 @@ layout: pages
       {% endif %}
       {{ content }}
     </div>
-
-    {% include comments.html %}
   </div>
 
+  {% include comments.html %}
 </article>

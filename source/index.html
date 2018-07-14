@@ -1,13 +1,18 @@
 ---
 layout: default
+title: Home
 ---
 
 <section class="hero">
   <div class="hero-inner">
     <div class="container">
       <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="avatar dot">
-      <h3>Hello I am <strong itemprop="name">{{ site.author.name }}</strong>.</h3>
-      <h3>{{ site.author.bio }}</h3>
+      <h3>Hello, I am <strong itemprop="name">{{ site.author.name }}</strong>.</h3>
+      <p>
+        A developer from Philippines. I am passionate with my work and my interests are on web development, distributed computing, software architecture/design and video games. 
+        <br>Also a family man with a beautiful wife and daughter.
+      </p>
+
       <a href="{{ '/about' | prepend: site.baseurl }}" class="button button-ghost" title="about">about</a>
       <a href="{{ '/blog' | prepend: site.baseurl }}" class="button button-ghost" title="blog">blog</a>
       <a href="{{ '/projects' | prepend: site.baseurl }}" class="button button-ghost" title="blog">projects</a>

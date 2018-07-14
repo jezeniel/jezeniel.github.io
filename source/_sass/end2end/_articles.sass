@@ -27,7 +27,7 @@
     color: lighten($action-color, 10%)
 
   &-header
-    margin-bottom: $base-spacing
+    margin-bottom: 0.5em
 
   &-title
     font-size: rem(26)
@@ -36,15 +36,14 @@
 
   &-list
     .post
-      @extend .card
-
       a
-        color: $base-font-color
+        color: $primary-color
 
         &:hover,
         &:active,
         &:focus
-          color: $primary-color
+          color: $dark-gray-color
+          text-decoration: underline
 
 .post-list
   .post
@@ -74,3 +73,13 @@
     &-content
       +media($tablet-small)
         padding: 0 0 0 $base-spacing
+
+    padding-bottom: 15px
+
+.post-info
+  color: $medium-gray-color
+
+.post-content
+  a
+    text-decoration: underline
+    color: $dark-gray-color
