@@ -4,7 +4,8 @@
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <div class="post-info">
-        <time>{{ post.date | date: "%B %-d, %Y" }}</time>
+        <time>{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+        {% if post.tags %} • {{ post.tags }}{% endif %}
       </div>
     </header>
     <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
