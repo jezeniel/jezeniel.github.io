@@ -4,15 +4,15 @@ title: Projects
 permalink: /projects/
 ---
 
-<hr>
-### Open Source
+Here are some projects that I've worked on, will be adding more soon! 
 
-- [smsutil][smsutil]{:.link} - Simple library for encoding, decoding and splitting SMS. 
+#### Open Source
 
-<hr>
-### Games
+- [smsutil][smsutil] - Simple library for encoding, decoding and splitting SMS. 
 
-- [More Than Enough][more-than-enough]{:.link} - Simple sound novel written in Ren'Py.
+#### Games
+
+- [More Than Enough][more-than-enough] - Simple sound poem written in Ren'Py.
 
 
 [smsutil]: https://github.com/jezeniel/smsutil
