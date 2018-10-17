@@ -5,7 +5,7 @@
       </h2>
       <div class="post-info">
         <time>{{ post.date | date: "%A, %B %-d, %Y" }}</time>
-        {% if post.tags %} • {{ post.tags }}{% endif %}
+        {% if post.tags %} • {{ post.tags | join: "," }}{% endif %}
       </div>
     </header>
     <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
