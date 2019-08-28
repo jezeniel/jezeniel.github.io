@@ -1,0 +1,22 @@
+{% extends "layouts/pages.html" %}
+
+{% block content %}
+<section class="post-list">
+
+  {% for post in articles %}
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title">
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <div class="post-info">
+        <time>{{ post.date.strftime("%A, %B %-d, %Y") }}</time>
+        {% if post.tags %} • {{ post.tags | join(",") }}{% endif %}
+      </div>
+    </header>
+    <p>{{ post.content | truncate(150) }}</p>
+  </article>
+  {% endfor %}
+
+</section>
+{% endblock %}
