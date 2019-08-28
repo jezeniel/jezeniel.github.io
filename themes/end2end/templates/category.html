@@ -1,5 +1,9 @@
 {% extends "layouts/pages.html" %}
 
+{% block title %}
+<title>{{ category }} | {{ SITENAME }}</title>
+{% endblock %}
+
 {% block content %}
 <section class="post-list">
 
@@ -7,7 +11,7 @@
   <article class="post">
     <header class="post-header">
       <h2 class="post-title">
-        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ SITEURL}}/{{ post.url }}">{{ post.title }}</a>
       </h2>
       <div class="post-info">
         <time>{{ post.date.strftime("%A, %B %-d, %Y") }}</time>

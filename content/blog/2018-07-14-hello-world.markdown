@@ -14,22 +14,24 @@ attention but some people still gave me great tips and advice.
 
 Here are some excerpts from the comments:
 
+<!-- -->
 > This sort of fear is very normal, and is what stops a lot of
-> people from giving a lot of value back to the world by writing
-> about their area of expertise. If you overcome it, you'll help not 
-> only yourself but also lots of other people.
-> -- thenomad
+people from giving a lot of value back to the world by writing
+about their area of expertise. If you overcome it, you'll help not 
+only yourself but also lots of other people. -- thenomad
 
+<!-- -->
 > Everybody makes mistakes, including bloggers. From my experience, 
-> if something is wrong or doesn't work your readers will let you know in the comments. 
-> Just be humble and ready to correct your mistakes and there should be no issues.
-> -- jetti
+if something is wrong or doesn't work your readers will let you know in the comments. 
+Just be humble and ready to correct your mistakes and there should be no issues.
+-- jetti
 
+<!-- -->
 > The thing is, everyone who writes on the internet has been wrong.
-> Everyone. You aren't going to be this horrible exception, the one
-> person who said one thing wrong on an otherwise-perfect internet.
-> So go ahead. Write. Make mistakes.
-> -- AnimalMuppet
+Everyone. You aren't going to be this horrible exception, the one
+person who said one thing wrong on an otherwise-perfect internet.
+So go ahead. Write. Make mistakes.
+-- AnimalMuppet
 
 These comments ring true to me, even smart people make mistakes.
 The intention to share and impart knowledge is the one that should matter.

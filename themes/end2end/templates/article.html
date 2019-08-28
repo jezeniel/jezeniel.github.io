@@ -1,0 +1,28 @@
+{% extends "layouts/pages.html" %}
+
+{% block title %}
+<title>{{ article.title }} | {{ SITENAME }}</title>
+{% endblock %}
+
+{% block content %}
+<article role="article" class="post">
+  <div>
+    <header class="post-header">
+      <h2 class="post-title">{{ article.title }}</h1>
+      <div class="post-info">
+        <time>written on {{ article.date.strftime("%A, %B %-d, %Y") }} </time>
+        {% if article.tags %} • {{ article.tags | join(",") }}{% endif %}
+      </div>
+    </header>
+
+    <div class="post-content">
+      {% if article.image %}
+        <figure class="post-thumbnail {% if article.image %}{% else %}no-image{% endif %}">
+          <img src="{{ article.image }}" alt="{{ article.title }}">
+        </figure>
+      {% endif %}
+      {{ article.content }}
+    </div>
+  </div>
+</article>
+{% endblock %}

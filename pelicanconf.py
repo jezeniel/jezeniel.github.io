@@ -4,14 +4,16 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jezeniel Zapanta'
 AUTHOR_IMG = 'images/author.jpg'
-SITENAME = 'jezeniel'
+SITENAME = 'Jezeniel Zapanta'
 SITEURL = ''
 
 GITHUB_URL = 'https://github.com/jezeniel'
 TWITTER_URL = 'https://twitter.com/jezeniel'
 EMAIL_URL = 'mailto:jezeniel.zapanta@gmail.com'
 
-NAVBAR = [('pages/about/', 'About'), ('#', 'Blog'), ('#', 'Projects')]
+NAVBAR = [
+    ('About', 'about/'), ('Blog', 'blog/'), ('Projects', 'projects/')
+]
 
 THEME = 'themes/end2end'
 
@@ -20,6 +22,21 @@ PATH = 'content'
 TIMEZONE = 'Asia/Manila'
 
 DEFAULT_LANG = 'en'
+
+## Markdown
+MARKDOWN = {
+    'extensions': ['markdown.extensions.smarty']
+}
+
+## Custom URLS
+
+# Article
+ARTICLE_URL = '{category}/{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = '{category}/{date:%Y}/{date:%m}/{slug}/index.html'
+
+# Category 
+CATEGORY_URL = '{slug}/'
+CATEGORY_SAVE_AS = '{slug}/index.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

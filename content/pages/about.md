@@ -2,6 +2,7 @@ title: About
 save_as: about/index.html
 url: about/
 
+# About
 
 Hi I am Jezeniel, a software engineer. I primarily use Python and Javascript
 in my work and side projects. I love talking and learning about web development, 
