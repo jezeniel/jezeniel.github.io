@@ -23,6 +23,10 @@ TIMEZONE = 'Asia/Manila'
 
 DEFAULT_LANG = 'en'
 
+DIRECT_TEMPLATES = ['index']
+AUTHOR_SAVE_AS = ''
+TAG_SAVE_AS = ''
+
 ## Markdown
 MARKDOWN = {
     'extensions': ['markdown.extensions.smarty']
