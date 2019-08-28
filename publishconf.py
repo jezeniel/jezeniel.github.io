@@ -14,8 +14,7 @@ from pelicanconf import *
 SITEURL = 'jezeniel.github.io'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+FEED_ALL_ATOM = 'feed.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 

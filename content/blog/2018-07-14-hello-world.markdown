@@ -1,8 +1,8 @@
 ---
-Title:  Hello World!
-Date:   2018-7-15 04:00:00
-Category: Blog
-Tags: personal
+title:  Hello World!
+date:   2018-7-15 04:00:00
+category: Blog
+tags: personal
 ---
 
 I have been meaning to create a blog and write things ages ago.

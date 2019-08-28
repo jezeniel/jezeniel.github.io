@@ -14,7 +14,7 @@
         {% for title, path in NAVBAR %}
           <li><a href="{{ SITEURL }}/{{ path }}" title="{{ title }}">{{title}}</a></li>
         {% endfor %}
-        <li><a href="#" target="_blank">rss</a></li>
+        <li><a href="{{ SITEURL }}/feed.xml" target="_blank">rss</a></li>
       </ul>
     </nav>
   </div>
