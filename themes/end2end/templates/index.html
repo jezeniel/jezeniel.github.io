@@ -11,16 +11,12 @@
         <br>Also a family man with a beautiful wife and daughter.
       </p>
 
-      <a href="#" class="button button-ghost" title="about">about</a>
+      <a href="{{ SITEURL }}/pages/about/" class="button button-ghost" title="about">about</a>
       <a href="#" class="button button-ghost" title="blog">blog</a>
       <a href="#" class="button button-ghost" title="blog">projects</a>
 
       <div style="margin: 25px">
-        <ul class="social">
-          <li><a href="#" target="_blank"><i class="icon icon-github"></i></a></li>
-          <li><a href="#" target="_blank"><i class="icon icon-twitter"></i></a></li>
-          <li><a href="#" target="_blank"><i class="icon icon-envelop"></i></a></li>
-        </ul>
+        {% include "includes/social.html" %}
       </div>
 
     </div>

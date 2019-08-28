@@ -1,6 +1,25 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
+<header class="site-header">
+  <div class="nav-container">
+    <input type="checkbox" id="toggleNavbar">
+    <h1 class="logo"><a href="#">Jezeniel Zapanta</a></h1>
+    <label for="toggleNavbar" role="button" class="toggle-navbar-button">
+      <i class="icon icon-menu"></i>
+      <i class="icon icon-cross"></i>
+    </label>
+    <nav class="navbar">
+      <ul>
+        {% for path, title in NAVBAR %}
+          <li><a href="{{ SITEURL }}/{{ path }}" title="{{ title }}">{{title}}</a></li>
+        {% endfor %}
+        <li><a href="#" target="_blank">rss</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
 <main class="main-container">
   <div class="container">
     <article role="article" class="page">
@@ -14,4 +33,7 @@
     </article>
   </div>
 </main>
+
+{% include "includes/footer.html" %}
+
 {% endblock %}

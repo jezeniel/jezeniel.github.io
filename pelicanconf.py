@@ -7,6 +7,12 @@ AUTHOR_IMG = 'images/author.jpg'
 SITENAME = 'jezeniel'
 SITEURL = ''
 
+GITHUB_URL = 'https://github.com/jezeniel'
+TWITTER_URL = 'https://twitter.com/jezeniel'
+EMAIL_URL = 'mailto:jezeniel.zapanta@gmail.com'
+
+NAVBAR = [('pages/about/', 'About'), ('#', 'Blog'), ('#', 'Projects')]
+
 THEME = 'themes/end2end'
 
 PATH = 'content'
