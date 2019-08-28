@@ -1,0 +1,14 @@
+{
+  "name": "jezeniel.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build_css": "sass themes/end2end/_sass/main.sass themes/end2end/static/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.22.10"
+  }
+}

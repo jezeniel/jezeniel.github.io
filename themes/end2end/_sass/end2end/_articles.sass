@@ -1,0 +1,85 @@
+
+//
+// Articles
+//
+
+.post
+  display: block
+
+  &-meta
+    font-size: .8rem
+    font-weight: 300
+
+  &-thumbnail
+    &, img
+      background-color: #f1eff0
+      border-radius: $base-border-radius
+
+    +media($tablet-small)
+      float: left
+      max-width: 250px
+      margin-right: $small-spacing
+      margin-bottom: $small-spacing
+      padding: $small-spacing
+      border: $base-border
+
+  .read-more
+    color: lighten($action-color, 10%)
+
+  &-header
+    margin-bottom: 0.5em
+
+  &-title
+    font-size: rem(26)
+    margin-bottom: 0
+    line-height: 1.5em
+
+  &-list
+    .post
+      a
+        color: $primary-color
+
+        &:hover,
+        &:active,
+        &:focus
+          color: $dark-gray-color
+          text-decoration: underline
+
+.post-list
+  .post
+    &-content,
+    &-thumbnail
+      +media($tablet-small)
+        display: table-cell
+        vertical-align: middle
+
+    &-thumbnail
+      margin-bottom: $base-spacing
+      padding: 0
+
+      +media($tablet-small)
+        width: 250px
+        margin: 0
+
+      > a
+        display: inline-block
+
+      &.no-image > a
+        width: 100%
+        min-height: 200px
+        background: url(../images/placeholder.png) no-repeat 50%
+        background-size: cover
+
+    &-content
+      +media($tablet-small)
+        padding: 0 0 0 $base-spacing
+
+    padding-bottom: 15px
+
+.post-info
+  color: $medium-gray-color
+
+.post-content
+  a
+    text-decoration: underline
+    color: $dark-gray-color

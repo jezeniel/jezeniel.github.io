@@ -1,0 +1,29 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-inner">
+    <div class="container">
+      <img src="{{ SITEURL }}/{{AUTHOR_IMG}}" alt="author thumb" class="avatar dot">
+      <h3>Hello, I am <strong itemprop="name">{{ AUTHOR }}</strong>.</h3>
+      <p>
+        A developer from Philippines. I am passionate with my work and my interests are on web development, distributed computing, software architecture/design and video games. 
+        <br>Also a family man with a beautiful wife and daughter.
+      </p>
+
+      <a href="#" class="button button-ghost" title="about">about</a>
+      <a href="#" class="button button-ghost" title="blog">blog</a>
+      <a href="#" class="button button-ghost" title="blog">projects</a>
+
+      <div style="margin: 25px">
+        <ul class="social">
+          <li><a href="#" target="_blank"><i class="icon icon-github"></i></a></li>
+          <li><a href="#" target="_blank"><i class="icon icon-twitter"></i></a></li>
+          <li><a href="#" target="_blank"><i class="icon icon-envelop"></i></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endblock %}
