@@ -45,6 +45,18 @@
   background: none transparent;
 }
 
+figure.image {
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+figure.image img {
+  box-shadow: 5px 0 5px;
+  border-radius: 2px;
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
