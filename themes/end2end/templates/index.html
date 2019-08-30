@@ -1,11 +1,13 @@
 {% extends "layouts/base.html" %}
 
+{% block title %}{{ SITENAME }}{% endblock %}
+
 {% block body %}
 <section class="hero">
   <div class="hero-inner">
     <div class="container">
       <img src="{{ SITEURL }}/{{AUTHOR_IMG}}" alt="author thumb" class="avatar dot">
-      <h3>Hello, I am <strong itemprop="name">{{ AUTHOR }}</strong>.</h3>
+      <h3>Hello, I am <strong itemprop="name">{{ FIRST_NAME }}</strong>.</h3>
       <p>
         A developer from Philippines. I am passionate with my work and my interests are on web development, distributed computing, software architecture/design and video games. 
         <br>Also a family man with a beautiful wife and daughter.

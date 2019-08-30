@@ -2,10 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Jezeniel Zapanta'
+FIRST_NAME = 'Jezeniel'
+LAST_NAME = 'Zapanta'
+AUTHOR = f'{FIRST_NAME}  {LAST_NAME}'
 AUTHOR_IMG = 'images/author.jpg'
 SITENAME = 'Jezeniel Zapanta'
 SITEURL = ''
+SITE_DESCRIPTION="This is my personal website. I blog about software development, tools that I use or just about anything."
 
 GITHUB_URL = 'https://github.com/jezeniel'
 TWITTER_URL = 'https://twitter.com/jezeniel'

@@ -1,7 +1,7 @@
 {% extends "layouts/pages.html" %}
 
 {% block title %}
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ SITENAME }}</title>
+{% if page.title %}{{ page.title }} | {% endif %}{{ SITENAME }}
 {% endblock %}
 
 {% block content %}
