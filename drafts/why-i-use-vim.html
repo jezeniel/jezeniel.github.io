@@ -4,7 +4,7 @@
     <title>Why I use Vim | Jezeniel Zapanta</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vim (VI IMproved) is a text editor created by Bram Moolenar in 1991, an enhanced clone of an older text editor vi. It has a speedrun, and made a...">
+    <meta name="description" content="Vim (VI IMproved) is an open source text editor created by Bram Moolenar in 1991, it is an enhanced clone of vi, which is an older text editor....">
 
     <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
   </head>
@@ -40,27 +40,63 @@
     </header>
 
     <div class="post-content">
-      <p><a href="https://www.vim.org">Vim</a> (<em>VI IMproved</em>) is a text editor created by <a href="https://en.wikipedia.org/wiki/Bram_Moolenaar">Bram Moolenar</a>
-in 1991, an enhanced clone of an older text editor vi. It has a <a href="https://www.youtube.com/watch?v=TLbfqZBL8t8">speedrun</a>, 
-and made a million of people go to <a href="https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/">StackOverflow</a> just to learn 
-how to quit it. It is also my favorite text editor.</p>
+      <p><a href="https://www.vim.org">Vim</a> (<em>VI IMproved</em>) is an open source text editor created by <a href="https://en.wikipedia.org/wiki/Bram_Moolenaar">Bram Moolenar</a>
+in 1991, it is an enhanced clone of vi, which is an older text editor. You
+can use it inside a terminal and has a standalone app with a graphical
+user interface.</p>
+<p>It has a <a href="https://www.youtube.com/watch?v=TLbfqZBL8t8">speedrun</a>, and made a million of developers go to
+<a href="https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/">StackOverflow</a> just to learn how to quit it. Vim is my
+favorite text editor.</p>
 <figure class="image">
   <img src="https://jezeniel.github.io/images/why_vim/vim.png">
   <figcaption><i>Now I am stuck forever</i></figcaption>
 </figure>
 
 <h2>The Beginning</h2>
-<p>My adventures in Vim started when I started learning Linux. Tutorials/troubleshooting 
-guides in the forums sometimes uses vi/vim when modifying files. As expected, I had
-a hard time quitting the damn editor, I don&rsquo;t know how to type, even save!</p>
-<p>I was intrigued by the idea of doing everything in the terminal. So I tried trying
-to learn and used it on and off for a long time. Then I stumbled upon the 
-<a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/">&ldquo;Learn Vim Progressively&rdquo;</a> blog post. The article mentioned 
-Vim to be a &ldquo;Six Billion Dollar editor&rdquo; and &ldquo;the best text editor known to human kind&rdquo;. 
-After reading the article, and seeing what Vim is capable of I was determined to 
-learn and use it once and for all.</p>
-<p>Vim introduced me to the world of modal text editing, which is quite different 
-from the usual modeless text editors like Notepad, GEdit, Notepad++.</p>
+<p>My adventures in Vim started when I started using and learning Linux.
+Tutorials and troubleshooting guides in the forums sometimes uses vi/vim when
+modifying files. As expected, the first time I used it I can&rsquo;t
+even write anything unless I accidentally pressed <code>a</code> or <code>i</code> to change
+to <code>INSERT</code> mode. After editing I don&rsquo;t even know how to save or quit!</p>
+<p>I was excited by the idea of doing everything in the terminal, the young me
+wanted to be a cool and l33t programmer. I know it has a learning curve, but the
+promise of increased productivity is very tempting to pass. So I tried to learn 
+and use it on and off.</p>
+<p>Then I stumbled upon the <a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/">&ldquo;Learn Vim Progressively&rdquo;</a>
+blog post. The article mentioned Vim to be a &ldquo;Six Billion Dollar editor&rdquo;
+and &ldquo;the best text editor known to human kind&rdquo;. After reading the article,
+and seeing what Vim is capable of I was determined to learn and use it
+once and for all. Many years has passed and I still use Vim.</p>
+<h2>Why use it?</h2>
+<p>Vim introduced me to the world of <em>modal</em> text editors. It means
+that it has different modes of editing. The effect of keys will change depending
+on the current mode the editor is on.</p>
+<p>This is quite different from the usual <em>modeless</em> text editors like  Notepad,
+Notepad++ and GEdit. Though some of these editors are <em>modeless</em> like Emacs, Sublime
+and VSCode by default, they have plugin system which can implement vim like mode.</p>
+<p>In Vi/Vim there are two primary modes which are <code>NORMAL</code> and <code>INSERT</code> mode.
+There are also three other modes which are <code>VISUAL</code>, <code>COMMAND</code> and <code>REPLACE</code>.</p>
+<h3>Normal Mode</h3>
+<p><code>NORMAL</code> mode is the default whenever you start Vim.  You cannot type text,
+but instead, this is where you can do navigation, text manipulation, undo/redo
+and many more.  You can also configure custom commands to run in this mode.
+You will need to switch back to this mode by pressing <code>ESC</code> before 
+changing to other modes.</p>
+<h3>Insert Mode</h3>
+<p><code>INSERT</code> mode is the more familiar mode for majority of people. This is where
+you, as the name suggests, insert text. Press <code>i</code> so you can go from <code>NORMAL</code>
+to <code>INSERT</code> mode.</p>
+<h3>Visual Mode</h3>
+<p><code>VISUAL</code> mode is for highlighting/selecting lines or blocks of text. It is similar
+to using <code>SHIFT</code> and arrow keys in modeless text editors. It allows you to
+do apply commands to the selected texts. You can use <code>v</code> to select single
+character or <code>V</code> to highlight lines of texts.</p>
+<h3>Command Mode</h3>
+<p><code>COMMAND</code> mode is like a command line input. You can go to this mode by pressing
+<code>:</code>. This is where you can save <code>:w</code>, quit <code>:q</code>, save and quit <code>:wq</code>.</p>
+<h3>Replace Mode</h3>
+<p><code>REPLACE</code> mode is like using the <code>Insert</code> key of your keyboard. It will 
+replace text from the starting point. You can acti</p>
     </div>
   </div>
 </article>

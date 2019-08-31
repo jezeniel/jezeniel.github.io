@@ -46,7 +46,7 @@
 }
 
 figure.image {
-  font-size: 0.9em;
+  font-size: 1em;
   font-style: italic;
   text-align: center;
   margin-top: 0.8em;
@@ -648,7 +648,7 @@ html {
 }
 
 body {
-  color: #636363;
+  color: #4d4d4d;
   font-family: "Alegreya", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-feature-settings: "kern", "liga", "pnum";
   font-size: 1em;
