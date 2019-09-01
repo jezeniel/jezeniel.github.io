@@ -32,7 +32,10 @@ TAG_SAVE_AS = ''
 
 ## Markdown
 MARKDOWN = {
-    'extensions': ['markdown.extensions.smarty']
+    'extensions': [
+        'markdown.extensions.smarty',
+        'markdown.extensions.extra'
+    ]
 }
 
 ## Custom URLS

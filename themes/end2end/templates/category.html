@@ -16,7 +16,7 @@
         {% if post.tags %} • {{ post.tags | join(",") }}{% endif %}
       </div>
     </header>
-    <p>{{ post.content | truncate(150) }}</p>
+    <p>{{ post.content | striptags | truncate(150) }}</p>
   </article>
   {% endfor %}
 
