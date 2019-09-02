@@ -1,6 +1,6 @@
 ---
 title: Why I Use Vim
-date: 2019-09-01 12:00
+date: 2019-09-03 00:00
 category: Blog
 tags: vim, personal, tools
 ---
