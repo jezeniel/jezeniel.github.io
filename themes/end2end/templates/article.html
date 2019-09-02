@@ -1,6 +1,13 @@
 {% extends "layouts/pages.html" %}
 
 {% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
+{% block meta %}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@jezeniel" />
+  <meta name="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+  <meta name="og:title" content="{{ article.title }}" />
+  <meta name="og:description" content="{{ article.content | striptags | truncate(150) }}" />
+{% endblock %}
 
 {% block content %}
 <article role="article" class="post">
