@@ -1,5 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Jezeniel Zapanta</title><link href="https://jezeniel.github.io/" rel="alternate"></link><link href="https://jezeniel.github.io/feed.xml" rel="self"></link><id>https://jezeniel.github.io/</id><updated>2018-07-15T04:00:00+08:00</updated><entry><title>Hello World!</title><link href="https://jezeniel.github.io/blog/2018/07/hello-world/" rel="alternate"></link><published>2018-07-15T04:00:00+08:00</published><updated>2018-07-15T04:00:00+08:00</updated><author><name>Jezeniel  Zapanta</name></author><id>tag:jezeniel.github.io,2018-07-15:/blog/2018/07/hello-world/</id><summary type="html">&lt;p&gt;I have been meaning to create a blog and write things ages ago.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jezeniel Zapanta</title><link href="https://jezeniel.github.io/" rel="alternate"></link><link href="https://jezeniel.github.io/feed.xml" rel="self"></link><id>https://jezeniel.github.io/</id><updated>2019-09-03T00:00:00+08:00</updated><entry><title>Why I Use Vim</title><link href="https://jezeniel.github.io/blog/2019/09/why-i-use-vim/" rel="alternate"></link><published>2019-09-03T00:00:00+08:00</published><updated>2019-09-03T00:00:00+08:00</updated><author><name>Jezeniel  Zapanta</name></author><id>tag:jezeniel.github.io,2019-09-03:/blog/2019/09/why-i-use-vim/</id><summary type="html">&lt;p&gt;&lt;a href="https://www.vim.org"&gt;Vim&lt;/a&gt; is an open source text editor created by &lt;a href="https://en.wikipedia.org/wiki/Bram_Moolenaar"&gt;Bram Moolenar&lt;/a&gt;
+in 1991, which is an enhanced clone of &lt;a href="https://en.wikipedia.org/wiki/Vi"&gt;vi&lt;/a&gt;. It is keyboard-driven, and
+due to how the default keybindings were designed, your hands don&amp;rsquo;t often need
+to move far away from the home row keys.  Vim is very …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://www.vim.org"&gt;Vim&lt;/a&gt; is an open source text editor created by &lt;a href="https://en.wikipedia.org/wiki/Bram_Moolenaar"&gt;Bram Moolenar&lt;/a&gt;
+in 1991, which is an enhanced clone of &lt;a href="https://en.wikipedia.org/wiki/Vi"&gt;vi&lt;/a&gt;. It is keyboard-driven, and
+due to how the default keybindings were designed, your hands don&amp;rsquo;t often need
+to move far away from the home row keys.  Vim is very configurable, you can add
+custom shortcuts, commands, and has tons of &lt;a href="https://vimawesome.com/"&gt;plugins&lt;/a&gt; to improve your
+workflow. You can run it in your favorite terminal or as a stand-alone
+application.&lt;/p&gt;
+&lt;p&gt;Vim has gained a reputation of being hard to quit, causing it to have
+a &lt;a href="https://www.google.com/search?q=vim+meme&amp;amp;tbm=isch"&gt;meme&lt;/a&gt;, &lt;a href="https://www.youtube.com/watch?v=TLbfqZBL8t8"&gt;speedrun&lt;/a&gt; video, and be one of the
+top &lt;a href="https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/"&gt;StackOverflow&lt;/a&gt; questions. You can also do fun things like
+&lt;a href="https://www.vimgolf.com/"&gt;vim golfing&lt;/a&gt; to test your skills, or even play &lt;a href="https://www.youtube.com/watch?v=_27mpiU-Zmg"&gt;Tetris&lt;/a&gt; inside
+vim.&lt;/p&gt;
+&lt;figure class="image"&gt;
+  &lt;img src="https://jezeniel.github.io/images/why_vim/vim.png"&gt;
+  &lt;figcaption&gt;&lt;i&gt;Now I am stuck forever&lt;/i&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;The Beginning&lt;/h2&gt;
+&lt;p&gt;My adventures in vim began when I started using Linux. Tutorials and guides
+around the internet sometimes use it to modify configurations and files.
+My first time in using vim is when I tried modifying a config for a software
+that I was using. I fired it up and &amp;hellip; I can&amp;rsquo;t even insert any text, then I
+started maniacally typing random characters until I pressed some unknown key 
+that allowed me to insert something. After editing, I still need to Google how
+to save my work and quit vim!&lt;/p&gt;
+&lt;figure class="image"&gt;
+  &lt;img src="https://jezeniel.github.io/images/why_vim/not_sudo.png"&gt;
+  &lt;figcaption&gt;&lt;i&gt;I forgot to use sudo again for the nth time...&lt;/i&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Then I read the &lt;a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/"&gt;&amp;ldquo;Learn Vim Progressively&amp;rdquo;&lt;/a&gt; blog post. It
+mentioned vim as a &amp;ldquo;Six Billion Dollar editor&amp;rdquo; and &amp;ldquo;the best text editor
+known to humankind&amp;rdquo;. The promise of improved productivity is too hard to pass.
+The young me thought that if I can do everything in the terminal without
+relying on a GUI, it will make me a cool and &lt;a href="https://en.wikipedia.org/wiki/Leet"&gt;l33t&lt;/a&gt; programmer.
+Maybe I tried learning it for the wrong reasons, either way I pushed myself 
+to use it even though my productivity suffered a bit because of the learning
+curve. Eventually, I got used to it and I am using vim ever since.&lt;/p&gt;
+&lt;figure class="image"&gt;
+  &lt;img src="https://jezeniel.github.io/images/why_vim/hackerman.jpg"&gt;
+  &lt;figcaption&gt;&lt;i&gt;I can be like this, minus the mullet.&lt;/i&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Why use it?&lt;/h2&gt;
+&lt;p&gt;Vim is a &lt;em&gt;modal&lt;/em&gt; text editor, this means it has different modes that you can use.
+Keybindings, commands, and actions will change depending on the mode.
+This is quite different from the usual &lt;em&gt;modeless&lt;/em&gt; text editors today like Notepad,
+Notepad++ and GEdit, in which you can enter text right away at the start. 
+Though some of these editors are &lt;em&gt;modeless&lt;/em&gt; by default, editors like Emacs, Sublime
+and VSCode have plugin systems that can emulate vim.&lt;/p&gt;
+&lt;p&gt;To compare shortcuts between &lt;em&gt;modal&lt;/em&gt; and &lt;em&gt;modeless&lt;/em&gt; editors, here is some
+comparison between vim (in &lt;code&gt;NORMAL&lt;/code&gt; mode) and vscode:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;action&lt;/th&gt;
+&lt;th&gt;vim&lt;/th&gt;
+&lt;th&gt;vscode&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;cut line&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;dd&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + x&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;copy line&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;yy&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + c&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;move line up/down&lt;/td&gt;
+&lt;td&gt;n/a&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Alt + ↑/↓&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;jump to matching bracket&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;%&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + Shift + \&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;insert line below&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;o&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + Enter&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;insert line above&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;O&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + Shift + Enter&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;go to beginning/end of line&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;0&lt;/code&gt;/&lt;code&gt;$&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Home&lt;/code&gt;/&lt;code&gt;End&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;go to the beginning of file&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;gg&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + Home&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;go to the end of file&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;G&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + End&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Because of the &lt;em&gt;modeless&lt;/em&gt; nature of vscode, it relies on using modifier keys 
+like &lt;code&gt;Ctrl&lt;/code&gt; and &lt;code&gt;Alt&lt;/code&gt; to execute commands.  But it doesn&amp;rsquo;t mean that vim is
+better than vscode. Vscode has nice features out of the box that you still need
+to configure/add to vim. What I am trying to show here is that due to the
+&lt;em&gt;modal&lt;/em&gt; nature of vim, it doesn&amp;rsquo;t rely much on modifier keys. This lessens
+&lt;a href="https://en.wikipedia.org/wiki/Chording"&gt;chording&lt;/a&gt; and keyboard travel time, which increases productivity
+once you get used to it.&lt;/p&gt;
+&lt;p&gt;In vim, the usual modes being used are &lt;code&gt;NORMAL&lt;/code&gt;, &lt;code&gt;INSERT&lt;/code&gt;, &lt;code&gt;VISUAL&lt;/code&gt;, &lt;code&gt;COMMAND&lt;/code&gt; and &lt;code&gt;REPLACE&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Normal Mode&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;NORMAL&lt;/code&gt; mode is the default whenever you start vim.  You cannot type any text,
+but instead, this is where you can do navigation, text manipulation, undo/redo
+and many more. You will need to switch back to this mode by pressing &lt;code&gt;ESC&lt;/code&gt; before
+changing to other modes.&lt;/p&gt;
+&lt;h3&gt;Insert Mode&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;INSERT&lt;/code&gt; mode is the most familiar mode, due to being the only mode of &lt;em&gt;modeless&lt;/em&gt; editors. 
+This is where you, as the name suggests, insert/type texts.  Pressing &lt;code&gt;i&lt;/code&gt; will
+make you switch from &lt;code&gt;NORMAL&lt;/code&gt; to &lt;code&gt;INSERT&lt;/code&gt; mode.&lt;/p&gt;
+&lt;h3&gt;Visual Mode&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;VISUAL&lt;/code&gt; mode is for highlighting/selecting lines or blocks of texts, it is similar
+to using &lt;code&gt;SHIFT&lt;/code&gt; and arrow keys in &lt;em&gt;modeless&lt;/em&gt; text editors. You can press &lt;code&gt;v&lt;/code&gt; to select by
+characters or &lt;code&gt;V&lt;/code&gt; to highlight lines of texts, this allows you to apply commands
+only to the selected texts.&lt;/p&gt;
+&lt;h3&gt;Command Mode&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;COMMAND&lt;/code&gt; mode is like a command line input. You can go to this mode by pressing
+&lt;code&gt;:&lt;/code&gt;. This is where you can save &lt;code&gt;:w&lt;/code&gt;, quit &lt;code&gt;:q&lt;/code&gt;, save and quit &lt;code&gt;:wq&lt;/code&gt; or call
+vim functions.&lt;/p&gt;
+&lt;h3&gt;Replace Mode&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;REPLACE&lt;/code&gt; mode is like using the &lt;code&gt;Insert&lt;/code&gt; key of your keyboard. It will
+replace text from the starting point until you go back to &lt;code&gt;NORMAL&lt;/code&gt; mode. 
+You can activate this by pressing &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There are still lots of things you can do in vim, and this is just the tip 
+of the iceberg. &lt;a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/"&gt;&amp;ldquo;Learn Vim Progressively&amp;rdquo;&lt;/a&gt;, &lt;a href="http://vimcasts.org"&gt;Vimcasts&lt;/a&gt; or
+&lt;code&gt;vimtutor&lt;/code&gt; which is already installed when you install vim in Linux are good place to
+start.&lt;/p&gt;
+&lt;h2&gt;Takeaway&lt;/h2&gt;
+&lt;p&gt;Vim is not a perfect text editor, but it introduced me to a more efficient
+way of doing my work. It taught me that people can still find ways to
+innovate/improve something that was considered good enough. There are times 
+that vim is not the best fit for some projects, and it might be better to just
+use other editors or IDEs like PyCharm and Android Studio. However, I am glad that
+the community of awesome programmers creates vim emulation plugins so we
+can enjoy the best of both worlds.&lt;/p&gt;
+&lt;p&gt;In the end, it is not about what is the best one (because there isn&amp;rsquo;t any), and 
+neither about being cool nor l33t. It is about what makes you do your work
+enjoyable and fun.&lt;/p&gt;
+&lt;h2&gt;Bonus&lt;/h2&gt;
+&lt;p&gt;For modeless text editor lovers, you can try vim mode! Here are some
+good vim emulation plugins for your favorite text editors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/emacs-evil/evil"&gt;Evil&lt;/a&gt; for Emacs&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/JetBrains/ideavim"&gt;IdeaVim&lt;/a&gt; for IntelliJ platform like Jetbrains products or Android Studio&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/NeoVintageous/NeoVintageous"&gt;NeoVintageous&lt;/a&gt; for SublimeText&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/VSCodeVim/Vim"&gt;VSCodeVimA&lt;/a&gt; for vscode&lt;/li&gt;
+&lt;/ul&gt;</content><category term="vim"></category><category term="personal"></category><category term="tools"></category></entry><entry><title>Hello World!</title><link href="https://jezeniel.github.io/blog/2018/07/hello-world/" rel="alternate"></link><published>2018-07-15T04:00:00+08:00</published><updated>2018-07-15T04:00:00+08:00</updated><author><name>Jezeniel  Zapanta</name></author><id>tag:jezeniel.github.io,2018-07-15:/blog/2018/07/hello-world/</id><summary type="html">&lt;p&gt;I have been meaning to create a blog and write things ages ago.
 But I was afraid to actually post something, because we now live in a 
 time that it is easy to be criticized (the bad type), trolled and hated.&lt;/p&gt;
 &lt;p&gt;I even &lt;a href="https://news.ycombinator.com/item?id=13809943"&gt;posted&lt;/a&gt; in HN to ask about this …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have been meaning to create a blog and write things ages ago.

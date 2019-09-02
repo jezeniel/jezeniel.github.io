@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Why I Use Vim | Jezeniel Zapanta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vim is an open source text editor created by Bram Moolenar in 1991, which is an enhanced clone of vi. It is keyboard-driven, and due to how the...">
+
+    <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
+  </head>
+  <body>
+<header class="site-header">
+  <div class="nav-container">
+    <input type="checkbox" id="toggleNavbar">
+    <h1 class="logo"><a href="https://jezeniel.github.io/">Jezeniel  Zapanta</a></h1>
+    <label for="toggleNavbar" role="button" class="toggle-navbar-button">
+      <i class="icon icon-menu"></i>
+      <i class="icon icon-cross"></i>
+    </label>
+    <nav class="navbar">
+      <ul>
+          <li><a href="https://jezeniel.github.io/about/" title="About">About</a></li>
+          <li><a href="https://jezeniel.github.io/blog/" title="Blog">Blog</a></li>
+          <li><a href="https://jezeniel.github.io/projects/" title="Projects">Projects</a></li>
+        <li><a href="https://jezeniel.github.io/feed.xml" target="_blank">rss</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main-container">
+  <div class="container">
+<article role="article" class="post">
+  <div>
+    <header class="post-header">
+      <h2 class="post-title">Why I Use Vim</h1>
+      <div class="post-info">
+        <time>written on Tuesday, September 3, 2019 </time>
+ • vim,personal,tools      </div>
+    </header>
+
+    <div class="post-content">
+      <p><a href="https://www.vim.org">Vim</a> is an open source text editor created by <a href="https://en.wikipedia.org/wiki/Bram_Moolenaar">Bram Moolenar</a>
+in 1991, which is an enhanced clone of <a href="https://en.wikipedia.org/wiki/Vi">vi</a>. It is keyboard-driven, and
+due to how the default keybindings were designed, your hands don&rsquo;t often need
+to move far away from the home row keys.  Vim is very configurable, you can add
+custom shortcuts, commands, and has tons of <a href="https://vimawesome.com/">plugins</a> to improve your
+workflow. You can run it in your favorite terminal or as a stand-alone
+application.</p>
+<p>Vim has gained a reputation of being hard to quit, causing it to have
+a <a href="https://www.google.com/search?q=vim+meme&amp;tbm=isch">meme</a>, <a href="https://www.youtube.com/watch?v=TLbfqZBL8t8">speedrun</a> video, and be one of the
+top <a href="https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/">StackOverflow</a> questions. You can also do fun things like
+<a href="https://www.vimgolf.com/">vim golfing</a> to test your skills, or even play <a href="https://www.youtube.com/watch?v=_27mpiU-Zmg">Tetris</a> inside
+vim.</p>
+<figure class="image">
+  <img src="https://jezeniel.github.io/images/why_vim/vim.png">
+  <figcaption><i>Now I am stuck forever</i></figcaption>
+</figure>
+
+<h2>The Beginning</h2>
+<p>My adventures in vim began when I started using Linux. Tutorials and guides
+around the internet sometimes use it to modify configurations and files.
+My first time in using vim is when I tried modifying a config for a software
+that I was using. I fired it up and &hellip; I can&rsquo;t even insert any text, then I
+started maniacally typing random characters until I pressed some unknown key 
+that allowed me to insert something. After editing, I still need to Google how
+to save my work and quit vim!</p>
+<figure class="image">
+  <img src="https://jezeniel.github.io/images/why_vim/not_sudo.png">
+  <figcaption><i>I forgot to use sudo again for the nth time...</i></figcaption>
+</figure>
+
+<p>Then I read the <a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/">&ldquo;Learn Vim Progressively&rdquo;</a> blog post. It
+mentioned vim as a &ldquo;Six Billion Dollar editor&rdquo; and &ldquo;the best text editor
+known to humankind&rdquo;. The promise of improved productivity is too hard to pass.
+The young me thought that if I can do everything in the terminal without
+relying on a GUI, it will make me a cool and <a href="https://en.wikipedia.org/wiki/Leet">l33t</a> programmer.
+Maybe I tried learning it for the wrong reasons, either way I pushed myself 
+to use it even though my productivity suffered a bit because of the learning
+curve. Eventually, I got used to it and I am using vim ever since.</p>
+<figure class="image">
+  <img src="https://jezeniel.github.io/images/why_vim/hackerman.jpg">
+  <figcaption><i>I can be like this, minus the mullet.</i></figcaption>
+</figure>
+
+<h2>Why use it?</h2>
+<p>Vim is a <em>modal</em> text editor, this means it has different modes that you can use.
+Keybindings, commands, and actions will change depending on the mode.
+This is quite different from the usual <em>modeless</em> text editors today like Notepad,
+Notepad++ and GEdit, in which you can enter text right away at the start. 
+Though some of these editors are <em>modeless</em> by default, editors like Emacs, Sublime
+and VSCode have plugin systems that can emulate vim.</p>
+<p>To compare shortcuts between <em>modal</em> and <em>modeless</em> editors, here is some
+comparison between vim (in <code>NORMAL</code> mode) and vscode:</p>
+<table>
+<thead>
+<tr>
+<th>action</th>
+<th>vim</th>
+<th>vscode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cut line</td>
+<td><code>dd</code></td>
+<td><code>Ctrl + x</code></td>
+</tr>
+<tr>
+<td>copy line</td>
+<td><code>yy</code></td>
+<td><code>Ctrl + c</code></td>
+</tr>
+<tr>
+<td>move line up/down</td>
+<td>n/a</td>
+<td><code>Alt + ↑/↓</code></td>
+</tr>
+<tr>
+<td>jump to matching bracket</td>
+<td><code>%</code></td>
+<td><code>Ctrl + Shift + \</code></td>
+</tr>
+<tr>
+<td>insert line below</td>
+<td><code>o</code></td>
+<td><code>Ctrl + Enter</code></td>
+</tr>
+<tr>
+<td>insert line above</td>
+<td><code>O</code></td>
+<td><code>Ctrl + Shift + Enter</code></td>
+</tr>
+<tr>
+<td>go to beginning/end of line</td>
+<td><code>0</code>/<code>$</code></td>
+<td><code>Home</code>/<code>End</code></td>
+</tr>
+<tr>
+<td>go to the beginning of file</td>
+<td><code>gg</code></td>
+<td><code>Ctrl + Home</code></td>
+</tr>
+<tr>
+<td>go to the end of file</td>
+<td><code>G</code></td>
+<td><code>Ctrl + End</code></td>
+</tr>
+</tbody>
+</table>
+<p>Because of the <em>modeless</em> nature of vscode, it relies on using modifier keys 
+like <code>Ctrl</code> and <code>Alt</code> to execute commands.  But it doesn&rsquo;t mean that vim is
+better than vscode. Vscode has nice features out of the box that you still need
+to configure/add to vim. What I am trying to show here is that due to the
+<em>modal</em> nature of vim, it doesn&rsquo;t rely much on modifier keys. This lessens
+<a href="https://en.wikipedia.org/wiki/Chording">chording</a> and keyboard travel time, which increases productivity
+once you get used to it.</p>
+<p>In vim, the usual modes being used are <code>NORMAL</code>, <code>INSERT</code>, <code>VISUAL</code>, <code>COMMAND</code> and <code>REPLACE</code>.</p>
+<h3>Normal Mode</h3>
+<p><code>NORMAL</code> mode is the default whenever you start vim.  You cannot type any text,
+but instead, this is where you can do navigation, text manipulation, undo/redo
+and many more. You will need to switch back to this mode by pressing <code>ESC</code> before
+changing to other modes.</p>
+<h3>Insert Mode</h3>
+<p><code>INSERT</code> mode is the most familiar mode, due to being the only mode of <em>modeless</em> editors. 
+This is where you, as the name suggests, insert/type texts.  Pressing <code>i</code> will
+make you switch from <code>NORMAL</code> to <code>INSERT</code> mode.</p>
+<h3>Visual Mode</h3>
+<p><code>VISUAL</code> mode is for highlighting/selecting lines or blocks of texts, it is similar
+to using <code>SHIFT</code> and arrow keys in <em>modeless</em> text editors. You can press <code>v</code> to select by
+characters or <code>V</code> to highlight lines of texts, this allows you to apply commands
+only to the selected texts.</p>
+<h3>Command Mode</h3>
+<p><code>COMMAND</code> mode is like a command line input. You can go to this mode by pressing
+<code>:</code>. This is where you can save <code>:w</code>, quit <code>:q</code>, save and quit <code>:wq</code> or call
+vim functions.</p>
+<h3>Replace Mode</h3>
+<p><code>REPLACE</code> mode is like using the <code>Insert</code> key of your keyboard. It will
+replace text from the starting point until you go back to <code>NORMAL</code> mode. 
+You can activate this by pressing <code>R</code>.</p>
+<p>There are still lots of things you can do in vim, and this is just the tip 
+of the iceberg. <a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/">&ldquo;Learn Vim Progressively&rdquo;</a>, <a href="http://vimcasts.org">Vimcasts</a> or
+<code>vimtutor</code> which is already installed when you install vim in Linux are good place to
+start.</p>
+<h2>Takeaway</h2>
+<p>Vim is not a perfect text editor, but it introduced me to a more efficient
+way of doing my work. It taught me that people can still find ways to
+innovate/improve something that was considered good enough. There are times 
+that vim is not the best fit for some projects, and it might be better to just
+use other editors or IDEs like PyCharm and Android Studio. However, I am glad that
+the community of awesome programmers creates vim emulation plugins so we
+can enjoy the best of both worlds.</p>
+<p>In the end, it is not about what is the best one (because there isn&rsquo;t any), and 
+neither about being cool nor l33t. It is about what makes you do your work
+enjoyable and fun.</p>
+<h2>Bonus</h2>
+<p>For modeless text editor lovers, you can try vim mode! Here are some
+good vim emulation plugins for your favorite text editors:</p>
+<ul>
+<li><a href="https://github.com/emacs-evil/evil">Evil</a> for Emacs</li>
+<li><a href="https://github.com/JetBrains/ideavim">IdeaVim</a> for IntelliJ platform like Jetbrains products or Android Studio</li>
+<li><a href="https://github.com/NeoVintageous/NeoVintageous">NeoVintageous</a> for SublimeText</li>
+<li><a href="https://github.com/VSCodeVim/Vim">VSCodeVimA</a> for vscode</li>
+</ul>
+    </div>
+  </div>
+</article>
+
+<p class="post-note">
+  Do you have any questions, suggestions, corrections or violent reactions? You can send
+  me an <a href="mailto:jezeniel.zapanta@gmail.com">email</a> or a tweet to <a href="https://twitter.com/jezeniel">@jezeniel</a>.
+  While I am still figuring out the best comment section plugin for my website.
+<p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div vlass="container">
+<ul class="social">
+  <li><a href="https://github.com/jezeniel" target="_blank"><i class="icon icon-github"></i></a></li>
+  <li><a href="https://twitter.com/jezeniel" target="_blank"><i class="icon icon-twitter"></i></a></li>
+  <li><a href="mailto:jezeniel.zapanta@gmail.com" target="_blank"><i class="icon icon-envelop"></i></a></li>
+</ul>   </div>
+   <p class="txt-medium-gray">
+    <small>&copy;2019 All rights reserved.</small>
+   </p>
+</footer>  </body>
+</html>
