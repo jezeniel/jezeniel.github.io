@@ -16,7 +16,7 @@
     <header class="post-header">
       <h2 class="post-title">{{ article.title }}</h1>
       <div class="post-info">
-        <time>written on {{ article.date.strftime("%A, %B %-d, %Y") }} </time>
+        <time>published on {{ article.date.strftime("%A, %B %-d, %Y") }} </time>
         {% if article.tags %} • {{ article.tags | join(",") }}{% endif %}
       </div>
     </header>

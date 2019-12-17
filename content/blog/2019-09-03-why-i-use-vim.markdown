@@ -2,7 +2,7 @@
 title: Why I Use Vim
 date: 2019-09-03 00:00
 category: Blog
-tags: vim, personal, tools
+tags: vim, tools
 ---
 
 [Vim][vim] is an open source text editor created by [Bram Moolenar][bram]

@@ -34,7 +34,8 @@ TAG_SAVE_AS = ''
 MARKDOWN = {
     'extensions': [
         'markdown.extensions.smarty',
-        'markdown.extensions.extra'
+        'markdown.extensions.extra',
+        'markdown3_newtab',
     ]
 }
 
