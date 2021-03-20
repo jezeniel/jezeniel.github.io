@@ -4,7 +4,7 @@
  * * https://github.com/nandomoreirame/end2end
  * * MIT License
  * */
-@import url("//fonts.googleapis.com/css?family=Alegreya");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
 .highlight::after, .pagination::after, .social::after, .site-header::after, .clearfix::after {
   clear: both;
   content: "";
@@ -187,7 +187,7 @@ strong {
  */
 b,
 strong {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 /**
@@ -512,7 +512,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Alegreya", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 1em;
 }
 
@@ -534,7 +534,7 @@ select[multiple=multiple] {
   border-radius: 6px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "Alegreya", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -644,12 +644,12 @@ th {
 }
 
 html {
-  font-size: 19px;
+  font-size: 1em;
 }
 
 body {
   color: #4d4d4d;
-  font-family: "Alegreya", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Merriweather", serif;
   font-feature-settings: "kern", "liga", "pnum";
   font-size: 1em;
   font-weight: 400;
@@ -664,7 +664,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Alegreya", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Merriweather", serif;
   line-height: 1.3;
   font-weight: 700;
 }

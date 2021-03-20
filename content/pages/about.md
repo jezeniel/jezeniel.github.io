@@ -10,8 +10,7 @@ Hi I am Jezeniel, a software engineer. I primarily use Python and Javascript
 in my work and side projects. I love talking and learning about web development, 
 system design, software engineering, open source software and video games.
 
-I also contribute to some open source projects (not as much as I want to)
-that I use.
+I also contribute to some open source projects as much as I can.
 
 I live in Manila, Philippines together with my wife and daughter.
 
